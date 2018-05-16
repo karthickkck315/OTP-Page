@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77D55AEA20AC25B100ADB263 /* UIFont+CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55AE920AC25B100ADB263 /* UIFont+CustomFont.swift */; };
+		77D55AEC20AC25C000ADB263 /* GlobalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55AEB20AC25C000ADB263 /* GlobalClass.swift */; };
+		77D55AEE20AC25C700ADB263 /* UIColor+CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55AED20AC25C700ADB263 /* UIColor+CustomColor.swift */; };
+		77D55AF320AC264D00ADB263 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55AEF20AC264D00ADB263 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		77D55AF420AC264D00ADB263 /* FloatLabelTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55AF020AC264D00ADB263 /* FloatLabelTextView.swift */; };
+		77D55AF520AC264D00ADB263 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55AF120AC264D00ADB263 /* SkyFloatingLabelTextField.swift */; };
+		77D55AF620AC264D00ADB263 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55AF220AC264D00ADB263 /* UITextField+fixCaretPosition.swift */; };
+		77D55B1120AC280C00ADB263 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 77D55B0120AC280C00ADB263 /* ProximaNova-Regular.otf */; };
 		77FBD02C20A16295003810D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FBD02B20A16295003810D4 /* AppDelegate.swift */; };
-		77FBD02E20A16295003810D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FBD02D20A16295003810D4 /* ViewController.swift */; };
 		77FBD03120A16295003810D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FBD02F20A16295003810D4 /* Main.storyboard */; };
 		77FBD03320A16295003810D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FBD03220A16295003810D4 /* Assets.xcassets */; };
 		77FBD03620A16295003810D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FBD03420A16295003810D4 /* LaunchScreen.storyboard */; };
+		77FBD03E20A162B1003810D4 /* VerificationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FBD03D20A162B1003810D4 /* VerificationPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77D55AE920AC25B100ADB263 /* UIFont+CustomFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomFont.swift"; sourceTree = "<group>"; };
+		77D55AEB20AC25C000ADB263 /* GlobalClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalClass.swift; sourceTree = "<group>"; };
+		77D55AED20AC25C700ADB263 /* UIColor+CustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColor.swift"; sourceTree = "<group>"; };
+		77D55AEF20AC264D00ADB263 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		77D55AF020AC264D00ADB263 /* FloatLabelTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextView.swift; sourceTree = "<group>"; };
+		77D55AF120AC264D00ADB263 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		77D55AF220AC264D00ADB263 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		77D55B0120AC280C00ADB263 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
 		77FBD02820A16295003810D4 /* OTP Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OTP Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77FBD02B20A16295003810D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77FBD02D20A16295003810D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77FBD03020A16295003810D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77FBD03220A16295003810D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77FBD03520A16295003810D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77FBD03720A16295003810D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77FBD03D20A162B1003810D4 /* VerificationPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +70,16 @@
 		77FBD02A20A16295003810D4 /* OTP Page */ = {
 			isa = PBXGroup;
 			children = (
+				77D55B0120AC280C00ADB263 /* ProximaNova-Regular.otf */,
+				77D55AF020AC264D00ADB263 /* FloatLabelTextView.swift */,
+				77D55AF120AC264D00ADB263 /* SkyFloatingLabelTextField.swift */,
+				77D55AEF20AC264D00ADB263 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				77D55AF220AC264D00ADB263 /* UITextField+fixCaretPosition.swift */,
+				77D55AED20AC25C700ADB263 /* UIColor+CustomColor.swift */,
+				77D55AEB20AC25C000ADB263 /* GlobalClass.swift */,
+				77D55AE920AC25B100ADB263 /* UIFont+CustomFont.swift */,
+				77FBD03D20A162B1003810D4 /* VerificationPage.swift */,
 				77FBD02B20A16295003810D4 /* AppDelegate.swift */,
-				77FBD02D20A16295003810D4 /* ViewController.swift */,
 				77FBD02F20A16295003810D4 /* Main.storyboard */,
 				77FBD03220A16295003810D4 /* Assets.xcassets */,
 				77FBD03420A16295003810D4 /* LaunchScreen.storyboard */,
@@ -123,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D55B1120AC280C00ADB263 /* ProximaNova-Regular.otf in Resources */,
 				77FBD03620A16295003810D4 /* LaunchScreen.storyboard in Resources */,
 				77FBD03320A16295003810D4 /* Assets.xcassets in Resources */,
 				77FBD03120A16295003810D4 /* Main.storyboard in Resources */,
@@ -136,8 +161,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77FBD02E20A16295003810D4 /* ViewController.swift in Sources */,
+				77D55AF620AC264D00ADB263 /* UITextField+fixCaretPosition.swift in Sources */,
+				77D55AEC20AC25C000ADB263 /* GlobalClass.swift in Sources */,
+				77D55AF420AC264D00ADB263 /* FloatLabelTextView.swift in Sources */,
+				77D55AEA20AC25B100ADB263 /* UIFont+CustomFont.swift in Sources */,
+				77D55AF320AC264D00ADB263 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
 				77FBD02C20A16295003810D4 /* AppDelegate.swift in Sources */,
+				77D55AF520AC264D00ADB263 /* SkyFloatingLabelTextField.swift in Sources */,
+				77D55AEE20AC25C700ADB263 /* UIColor+CustomColor.swift in Sources */,
+				77FBD03E20A162B1003810D4 /* VerificationPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
